@@ -3,7 +3,7 @@
 
 ![GitHub forks](https://img.shields.io/github/forks/irsyadabdillah/Apps-Intro.svg) ![GitHub contributors](https://img.shields.io/github/contributors/irsyadabdillah/Apps-Intro.svg) ![GitHub top language](https://img.shields.io/github/languages/top/irsyadabdillah/Apps-Intro.svg) ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=irsyadabdillah/Apps-Intro)
 
-<img src="https://raw.githubusercontent.com/irsyadabdillah/Apps-Intro/master/Asset/ezgif.com-gif-maker.gif" width="250" />
+<img src="https://raw.githubusercontent.com/irsyadabdillah/Apps-Intro/master/Asset/ezgif.com-gif-maker%20(1).gif" width="250" />
 
 ## Features
 - Splash Screen
