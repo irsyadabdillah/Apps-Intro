@@ -3,7 +3,7 @@
 
 ![GitHub forks](https://img.shields.io/github/forks/irsyadabdillah/Apps-Intro.svg) ![GitHub contributors](https://img.shields.io/github/contributors/irsyadabdillah/Apps-Intro.svg) ![GitHub top language](https://img.shields.io/github/languages/top/irsyadabdillah/Apps-Intro.svg) ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=irsyadabdillah/Apps-Intro)
 
-![alt text](https://github.com/irsyadabdillah/Apps-Intro/blob/master/Asset/Apps_Intro_Onboarding.mp4?raw=true)
+![alt text](https://github.com/irsyadabdillah/Apps-Intro/blob/master/Asset/Apps_Intro_Onboarding.mp4)
 
 ## Features
 - Splash Screen
