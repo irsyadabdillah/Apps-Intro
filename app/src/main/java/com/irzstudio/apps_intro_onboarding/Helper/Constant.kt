@@ -4,6 +4,5 @@ class Constant {
 
     companion object{
         val PREF_IS_STARTED = "PREF_IS_STARTED"
-
     }
 }

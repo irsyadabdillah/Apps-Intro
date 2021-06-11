@@ -9,13 +9,13 @@ import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
 
-    lateinit var sharedPref: PreferencesHelper
+    private val sharedPref: PreferencesHelper by lazy {
+        PreferencesHelper(this)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-
-        sharedPref = PreferencesHelper(this)
 
         btn_restart.setOnClickListener {
             sharedPref.clearAll()

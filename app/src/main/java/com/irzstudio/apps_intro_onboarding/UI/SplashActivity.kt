@@ -10,14 +10,14 @@ import com.irzstudio.apps_intro_onboarding.R
 
 class SplashActivity : AppCompatActivity() {
 
-    private val splash_time_out:Long = 3000
-    lateinit var sharedPref: PreferencesHelper
+    private val splash_time_out: Long = 2000
+    private val sharedPref: PreferencesHelper by lazy {
+        PreferencesHelper(this)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-
-        sharedPref = PreferencesHelper(this)
 
         Handler().postDelayed({
             if (sharedPref.getBoolean(Constant.PREF_IS_STARTED) == true){

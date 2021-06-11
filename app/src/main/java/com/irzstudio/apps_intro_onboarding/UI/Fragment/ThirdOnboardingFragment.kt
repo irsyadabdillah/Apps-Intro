@@ -13,22 +13,14 @@ import com.irzstudio.apps_intro_onboarding.UI.HomeActivity
 import kotlinx.android.synthetic.main.fragment_first_onboarding.*
 
 
-class ThirdOnboardingFragment : Fragment() {
+class ThirdOnboardingFragment : Fragment(R.layout.fragment_third_onboarding) {
 
-    lateinit var sharedPref: PreferencesHelper
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_third_onboarding, container, false)
+    private val sharedPref: PreferencesHelper by lazy {
+        PreferencesHelper(requireContext())
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        sharedPref = PreferencesHelper(requireContext())
 
         btn_started.setOnClickListener {
             sharedPref.put(Constant.PREF_IS_STARTED, true)
